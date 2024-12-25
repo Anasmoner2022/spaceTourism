@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    /* Box Sizing */
+    *,
+    *::before,
+    *::after {
+        @apply box-border;
+    }
+
+    /* Reset Margins */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    figure,
+    picture {
+        @apply m-0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        @apply font-normal;
+    }
+
+    body {
+        @apply font-sansNormal text-white bg-dark leading-normal min-h-screen;
+        font-size: var(--fs-400);
+        display: grid;
+        grid-template-rows: min-content 1fr;
+    }
+
+    img,
+    picture{
+        @apply block max-w-full;
+    }
+
+    input,
+    button,
+    textarea,
+    select {
+        @apply font-inherit;
+    }
+}
+
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

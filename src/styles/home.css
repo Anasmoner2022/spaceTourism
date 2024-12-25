@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;  
+  border: 2px solid lightgreen;
+}
+
+@media (min-width: 45rem) {
+  .grid-container {
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30em)) minmax(2rem, 1fr);
+    column-gap: 2em;
+  }
+  .grid-container > *:first-child {
+    grid-column: 2;
+    outline: 1px solid red;
+}
+
+.grid-container > *:last-child {
+    grid-column: 3;
+    outline: 1px solid yellow;
+}
+}

@@ -1,0 +1,27 @@
+.primary-navigation{
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
+
+.primary-navigation a>span {
+    font-weight: 700;
+    margin-right: .5em;
+}
+
+.underline-indicators > li:hover,
+.underline-indicators > li:focus,
+.underline-indicators > button:hover {
+    border-color: hsl(var(--clr-white) / .25);
+}
+
+.underline-indicators>.active,
+.underline-indicators>[aria-selected="true"] {
+    color: hsl(var(--clr-white));
+    border-color: hsl(var(--clr-white) / 1);
+}
