@@ -52,6 +52,27 @@
     select {
         @apply font-inherit;
     }
+
+    body{
+        background-image: url('src/assets/home/background-home-mobile.jpg');
+        @apply bg-bottom bg-cover bg-no-repeat;
+    }
+
+    @screen sm{
+        body{
+            background-image: url('src/assets/home/background-home-tablet.jpg');
+            @apply bg-bottom bg-cover bg-no-repeat;
+        }
+    }
+
+    @screen md{
+        body{
+            background-image: url('src/assets/home/background-home-desktop.jpg');
+            @apply bg-[bottom_center_1rem] bg-cover bg-no-repeat;
+        }
+    }
+
+
 }
 
 

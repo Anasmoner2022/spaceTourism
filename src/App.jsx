@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 const App = () => {
   return (
     
-      <div className="container mx-auto p-4 flex flex-col items-center justify-center">
+      <div className="flex flex-col">
         <Home></Home>
       </div>
     

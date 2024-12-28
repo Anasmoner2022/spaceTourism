@@ -1,13 +1,13 @@
 import Logo from "./Logo"
-import Tabs from "./Tabs"
+// import Tabs from "./Tabs"
 
 const Header = () => {
   return (
       <header className="primary-header flex">
           <Logo />
-          <nav>
+          {/* <nav>
             <Tabs />
-          </nav>
+          </nav> */}
         </header>
   )
 }

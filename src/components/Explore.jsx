@@ -4,7 +4,7 @@ import '../styles/Explore.css'
 
 const Explore = ({title}) => {
   return (
-    <a className="btn relative inline-grid place-items-center z-[1] rounded-full px-[2em] py-0 aspect-square no-underline bg-white text-dark cursor-pointer">{title}</a>
+    <a className="btn relative inline-grid text-[2rem] place-items-center z-[1] rounded-full px-[2em] py-0 aspect-square no-underline bg-white text-dark cursor-pointer">{title}</a>
   )
 }
 
