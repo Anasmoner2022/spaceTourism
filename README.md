@@ -93,32 +93,6 @@ The Space Tourism project is a multi-page responsive website designed to showcas
 
 ---
 
-## **File Structure**
-```plaintext
-project-root/
-├── public/
-│   ├── index.html
-│   ├── images/
-│   └── textures/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Destination.jsx
-│   │   ├── Crew.jsx
-│   │   └── Technology.jsx
-│   ├── styles/
-│   ├── App.js
-│   └── index.js
-├── package.json
-├── README.md
-└── .gitignore
-```
-
----
-
 ## **Implementation Guide**
 
 ### **Step 1: Setup Project**
